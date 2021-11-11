@@ -21,6 +21,8 @@
 	width: 85%;
 	margin: 7.5%;
 
+	padding: 6%;
+
 	background-color: #505050;
 
 	border-radius: 10%;
@@ -56,7 +58,7 @@
 	height: 100%;
 	width: 100%;
 
-	background-color: #15141d;
+	background-color: #181720;
 
 	border-radius: 100%;
 }
@@ -75,4 +77,27 @@
 	border-radius: 2vh 2vh 0 0;
 	border: none;
 	outline: 0;
+}
+
+.lpNormalBtnProMk2Phantom {
+	height: 100%;
+	width: 100%;
+	background-color: #14131b;
+	border-radius: 12%;
+}
+
+.lpNormalBtnProMk2Phantom#DL {
+	border-radius: 12% 45% 12% 12%;
+}
+
+.lpNormalBtnProMk2Phantom#DR {
+	border-radius: 45% 12% 12% 12%;
+}
+
+.lpNormalBtnProMk2Phantom#TR {
+	border-radius: 12% 12% 12% 45%;
+}
+
+.lpNormalBtnProMk2Phantom#TL {
+	border-radius: 12% 12% 45% 12%;
 }

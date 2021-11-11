@@ -15,18 +15,36 @@ const Matrix = (props) => {
                                 {(() => {
                                     if(y == 9 && x == 9)
                                         return(null);
-                                    else if (y == 9 || x == 9)
-                                        return(<div className="maEdgeBtn" id={"lpBtn" + pitch}><div className="maEdgeFill"/></div>);
                                     else if(y == 4 && x == 4)
-                                        return(<button className="maNormalBtn maNormalBtnDL" id={"lpBtn" + pitch}></button>);
+                                        return(
+                                            <button className="maNormalBtn maNormalBtnDL" id={"lpBtn" + pitch}>
+                                                <div style={{visibility: props.phantomStickers == 1? "visible" : "hidden"}} className="maNormalBtnPhantom" id="DL"/>
+                                            </button>
+                                        );
                                     else if(y == 4 && x == 5)
-                                        return(<button className="maNormalBtn maNormalBtnDR" id={"lpBtn" + pitch}></button>);
+                                        return(
+                                            <button className="maNormalBtn maNormalBtnDR" id={"lpBtn" + pitch}>
+                                                <div style={{visibility: props.phantomStickers == 1? "visible" : "hidden"}} className="maNormalBtnPhantom" id="DR"/>
+                                            </button>
+                                        );
                                     else if(y == 5 && x == 4)
-                                        return(<button className="maNormalBtn maNormalBtnTL" id={"lpBtn" + pitch}></button>);
+                                        return(
+                                            <button className="maNormalBtn maNormalBtnTL" id={"lpBtn" + pitch}>
+                                                <div style={{visibility: props.phantomStickers == 1? "visible" : "hidden"}} className="maNormalBtnPhantom" id="TL"/>
+                                            </button>
+                                        );
                                     else if(y == 5 && x == 5)
-                                        return(<button className="maNormalBtn maNormalBtnTR" id={"lpBtn" + pitch}></button>);
+                                        return(
+                                            <button className="maNormalBtn maNormalBtnTR" id={"lpBtn" + pitch}>
+                                                <div style={{visibility: props.phantomStickers == 1? "visible" : "hidden"}} className="maNormalBtnPhantom" id="TR"/>
+                                            </button>
+                                        );
 
-                                    return(<button className="maNormalBtn" id={"lpBtn" + pitch}></button>);
+                                    return(
+                                        <button className="maNormalBtn" id={"lpBtn" + pitch}>
+                                            <div style={{visibility: props.phantomStickers == 1? "visible" : "hidden"}} className="maNormalBtnPhantom"/>
+                                        </button>
+                                    );
                                 })()}
                             </div>
                         );

@@ -21,6 +21,8 @@
 	width: 85%;
 	margin: 7.5%;
 
+	padding: 6%;
+
 	background-color: #505050;
 
 	border-radius: 5%;
@@ -56,7 +58,7 @@
 	height: 100%;
 	width: 100%;
 
-	background-color: #15141d;
+	background-color: #181720;
 
 	border-radius: 5%;
 }
@@ -93,4 +95,27 @@
 	border-radius: 5%;
 	border: none;
 	outline: 0;
+}
+
+.lpNormalBtnProMk3Phantom {
+	height: 100%;
+	width: 100%;
+	background-color: #14131b;
+	border-radius: 6%;
+}
+
+.lpNormalBtnProMk3Phantom#DL {
+	border-radius: 6% 35% 6% 6%;
+}
+
+.lpNormalBtnProMk3Phantom#DR {
+	border-radius: 35% 6% 6% 6%;
+}
+
+.lpNormalBtnProMk3Phantom#TR {
+	border-radius: 6% 6% 6% 35%;
+}
+
+.lpNormalBtnProMk3Phantom#TL {
+	border-radius: 6% 6% 35% 6%;
 }

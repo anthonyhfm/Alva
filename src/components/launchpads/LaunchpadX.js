@@ -16,17 +16,37 @@ const LaunchpadX = (props) => {
                                     if(y == 9 && x == 9)
                                         return(null);
                                     else if (y == 9 || x == 9)
-                                        return(<div className="lpEdgeBtnX" id={"lpBtn" + pitch}><div className="lpEdgeFillX"/></div>);
+                                        return(<div className="lpEdgeBtnX" id={"lpBtn" + pitch}><div className="lpEdgeFillX" style={{visibility: props.phantomStickers == 2? "hidden" : "visible"}}/></div>);
                                     else if(y == 4 && x == 4)
-                                        return(<button className="lpNormalBtnX lpNormalBtnXDL" id={"lpBtn" + pitch}></button>);
+                                        return(
+                                            <button className="lpNormalBtnX lpNormalBtnXDL" id={"lpBtn" + pitch}>
+                                                <div style={{visibility: props.phantomStickers == 1? "visible" : "hidden"}} className="lpNormalBtnXPhantom" id="DL"/>
+                                            </button>
+                                        );
                                     else if(y == 4 && x == 5)
-                                        return(<button className="lpNormalBtnX lpNormalBtnXDR" id={"lpBtn" + pitch}></button>);
+                                        return(
+                                            <button className="lpNormalBtnX lpNormalBtnXDR" id={"lpBtn" + pitch}>
+                                                <div style={{visibility: props.phantomStickers == 1? "visible" : "hidden"}} className="lpNormalBtnXPhantom" id="DR"/>
+                                            </button>
+                                        );
                                     else if(y == 5 && x == 4)
-                                        return(<button className="lpNormalBtnX lpNormalBtnXTL" id={"lpBtn" + pitch}></button>);
+                                        return(
+                                            <button className="lpNormalBtnX lpNormalBtnXTL" id={"lpBtn" + pitch}>
+                                                <div style={{visibility: props.phantomStickers == 1? "visible" : "hidden"}} className="lpNormalBtnXPhantom" id="TL"/>
+                                            </button>
+                                        );
                                     else if(y == 5 && x == 5)
-                                        return(<button className="lpNormalBtnX lpNormalBtnXTR" id={"lpBtn" + pitch}></button>);
+                                        return(
+                                            <button className="lpNormalBtnX lpNormalBtnXTR" id={"lpBtn" + pitch}>
+                                                <div style={{visibility: props.phantomStickers == 1? "visible" : "hidden"}} className="lpNormalBtnXPhantom" id="TR"/>
+                                            </button>
+                                        );
 
-                                    return(<button className="lpNormalBtnX" id={"lpBtn" + pitch}></button>);
+                                    return(
+                                        <button className="lpNormalBtnX" id={"lpBtn" + pitch}>
+                                            <div style={{visibility: props.phantomStickers == 1? "visible" : "hidden"}} className="lpNormalBtnXPhantom"/>
+                                        </button>
+                                    );
                                 })()}
                             </div>
                         );

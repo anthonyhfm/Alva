@@ -21,6 +21,8 @@
 	width: 85%;
 	margin: 7.5%;
 
+	padding: 6%;
+
 	background-color: #505050;
 
 	border-radius: 5%;
@@ -44,7 +46,7 @@
 	height: 100%;
 	width: 100%;
 
-	background-color: #15141d;
+	background-color: #181720;
 
 	border-radius: 5%;
 }
@@ -60,4 +62,27 @@
 }
 .lpNormalBtnXTR {
 	border-radius: 5% 5% 5% 30%;
+}
+
+.lpNormalBtnXPhantom {
+	height: 100%;
+	width: 100%;
+	background-color: #14131b;
+	border-radius: 6%;
+}
+
+.lpNormalBtnXPhantom#DL {
+	border-radius: 6% 35% 6% 6%;
+}
+
+.lpNormalBtnXPhantom#DR {
+	border-radius: 35% 6% 6% 6%;
+}
+
+.lpNormalBtnXPhantom#TR {
+	border-radius: 6% 6% 6% 35%;
+}
+
+.lpNormalBtnXPhantom#TL {
+	border-radius: 6% 6% 35% 6%;
 }

@@ -21,32 +21,13 @@
 	width: 85%;
 	margin: 7.5%;
 
+	padding: 6%;
+
 	background-color: #505050;
 
 	border-radius: 10%;
 	border: none;
 	outline: 0;
-}
-
-.maEdgeBtn {
-	height: 80%;
-	width: 80%;
-	margin: 10%;
-
-	padding: 9%;
-
-	background-color: rgb(80, 80, 80);
-
-	border-radius: 100%;
-}
-
-.maEdgeFill {
-	height: 100%;
-	width: 100%;
-
-	background-color: #15141d;
-
-	border-radius: 100%;
 }
 
 .maNormalBtnDL {
@@ -60,4 +41,27 @@
 }
 .maNormalBtnTR {
 	border-radius: 10% 10% 10% 40%;
+}
+
+.maNormalBtnPhantom {
+	height: 100%;
+	width: 100%;
+	background-color: #14131b;
+	border-radius: 12%;
+}
+
+.maNormalBtnPhantom#DL {
+	border-radius: 12% 45% 12% 12%;
+}
+
+.maNormalBtnPhantom#DR {
+	border-radius: 45% 12% 12% 12%;
+}
+
+.maNormalBtnPhantom#TR {
+	border-radius: 12% 12% 12% 45%;
+}
+
+.maNormalBtnPhantom#TL {
+	border-radius: 12% 12% 45% 12%;
 }

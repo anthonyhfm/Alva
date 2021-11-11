@@ -26,7 +26,8 @@ class App extends Component {
 			viewedLaunchpad: 1,
 			midiInputDevice: 0,
 			rotation: 0,
-			legacy : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 99, 91, 92, 93, 94, 95, 96, 97, 98, 11, 12, 13, 14, 21, 22, 23, 24, 31, 32, 33, 34, 41, 42, 43, 44, 51, 52, 53, 54, 61, 62, 63, 64, 71, 72, 73, 74, 81, 82, 83, 84, 15, 16, 17, 18, 25, 26, 27, 28, 35, 36, 37, 38, 45, 46, 47, 48, 55, 56, 57, 58, 65, 66, 67, 68, 75, 76, 77, 78, 85, 86, 87, 88, 89, 79, 69, 59, 49, 39, 29, 19, 80, 70, 60, 50, 40, 30, 20, 10, 1, 2, 3, 4, 5, 6, 7, 8, 0, 0, 0, 0]
+			legacy : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 99, 91, 92, 93, 94, 95, 96, 97, 98, 11, 12, 13, 14, 21, 22, 23, 24, 31, 32, 33, 34, 41, 42, 43, 44, 51, 52, 53, 54, 61, 62, 63, 64, 71, 72, 73, 74, 81, 82, 83, 84, 15, 16, 17, 18, 25, 26, 27, 28, 35, 36, 37, 38, 45, 46, 47, 48, 55, 56, 57, 58, 65, 66, 67, 68, 75, 76, 77, 78, 85, 86, 87, 88, 89, 79, 69, 59, 49, 39, 29, 19, 80, 70, 60, 50, 40, 30, 20, 10, 1, 2, 3, 4, 5, 6, 7, 8, 0, 0, 0, 0],
+			phantoms: 0
 		}
 
 	}
@@ -174,8 +175,8 @@ class App extends Component {
 						<div className="menuBarButtonChild menuBarInnerContent">
 							<button className="menuBarInnerButton">Change Virtual Device
 								<div className="menuBarInnerButtonChild menuBarSubContent">
-									<button onClick={() => this.setState({viewedLaunchpad: 0})} className="menuBarInnerButton">Launchpad mk2</button>
-									<button onClick={() => this.setState({viewedLaunchpad: 1})} className="menuBarInnerButton">Launchpad Pro mk2</button>
+									<button onClick={() => this.setState({viewedLaunchpad: 0})} className="menuBarInnerButton">Launchpad Mk2</button>
+									<button onClick={() => this.setState({viewedLaunchpad: 1})} className="menuBarInnerButton">Launchpad Pro Mk2</button>
 									<button onClick={() => this.setState({viewedLaunchpad: 2})} className="menuBarInnerButton">Launchpad X</button>
 									<button onClick={() => this.setState({viewedLaunchpad: 3})}className="menuBarInnerButton">Launchpad Pro Mk3</button>
 									<button onClick={() => this.setState({viewedLaunchpad: 4})} className="menuBarInnerButton">Midi Fighter 64</button>
@@ -195,6 +196,14 @@ class App extends Component {
 									<button onClick={() => this.setState({rotation: -45})} className="menuBarInnerButton">45° Rotation</button>
 								</div>
 							</button><br/>
+
+							<button className="menuBarInnerButton">Stickers
+								<div className="menuBarInnerButtonChild menuBarSubContent">
+									<button onClick={() => this.setState({phantoms: 0})} className="menuBarInnerButton">No Stickers</button>
+									<button onClick={() => this.setState({phantoms: 1})} className="menuBarInnerButton">Phantom Stickers</button>
+									<button onClick={() => this.setState({phantoms: 2})} className="menuBarInnerButton">Sanded</button>
+								</div>
+							</button><br/>
 						</div>
 					
 					</button>
@@ -204,22 +213,22 @@ class App extends Component {
 					{(() => {
 						switch(this.state.viewedLaunchpad) {
 							case 0: {
-								return(<LaunchpadMk2 virtualSend={e => console.log(e)}/>);
+								return(<LaunchpadMk2 phantomStickers={this.state.phantoms} virtualSend={e => console.log(e)}/>);
 							}
 							case 1: {
-								return(<LaunchpadProMk2 virtualSend={e => console.log(e)}/>);
+								return(<LaunchpadProMk2 phantomStickers={this.state.phantoms} virtualSend={e => console.log(e)}/>);
 							}
 							case 2: {
-								return(<LaunchpadX virtualSend={e => console.log(e)}/>);
+								return(<LaunchpadX phantomStickers={this.state.phantoms} virtualSend={e => console.log(e)}/>);
 							}
 							case 3: {
-								return(<LaunchpadProMk3 virtualSend={e => console.log(e)}/>);
+								return(<LaunchpadProMk3 phantomStickers={this.state.phantoms} virtualSend={e => console.log(e)}/>);
 							}
 							case 4: {
-								return(<MidiFighter64 virtualSend={e => console.log(e)}/>);
+								return(<MidiFighter64 phantomStickers={this.state.phantoms} virtualSend={e => console.log(e)}/>);
 							}
 							case 5: {
-								return(<Matrix virtualSend={(p, v) => console.log(p, v)}/>);
+								return(<Matrix phantomStickers={this.state.phantoms} virtualSend={(p, v) => console.log(p, v)}/>);
 							}
 						}
 					})()}
