@@ -12,7 +12,7 @@ A Standalone Virtual Launchpad made with JS and React in Electron
 5. Playback Ableton Lights just like with a actual Launchpad
 
 ### MacOS:
-1. Set up a new Virtual Midi Loopback in the Audio Setup App. [Here is Instructions for that](https://www.skratchdot.com/2016/01/creating-virtual-midi-ports-on-osx/)
+1. Set up a new Virtual Midi Loopback in the Audio Setup App. [Here are Instructions for that](https://www.skratchdot.com/2016/01/creating-virtual-midi-ports-on-osx/)
 2. In Ableton: Turn off the input for the virtual midi port
 3. In Alva: Go to the View tab and select the Midi Port you want to use. If you cant find it *restart Alva*
 4. Playback Ableton Lights just like with a actual Launchpad
