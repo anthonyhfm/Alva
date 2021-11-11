@@ -1,0 +1,74 @@
+.menuBarHolder {
+    height: 30px;
+    background-color: rgb(214, 214, 214);
+}
+
+.menuBarButton {
+    height: 30px;
+    border: none;
+    outline: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menuBarButton:hover {
+    background-color: rgb(115, 182, 245);
+}
+
+.menuBarButton .menuBarButtonChild {
+    visibility: hidden;
+}
+
+.menuBarButton:hover .menuBarButtonChild {
+    visibility: visible;
+    z-index: 1000;
+}
+
+.menuBarInnerContent {
+    position: absolute;
+    min-width: 150px;
+    min-height: 30px;
+    background-color: white;
+    left: calc("1 - 14px");
+    margin-left: -10px;
+    margin-top: 7px;
+}
+
+.menuBarInnerButton {
+    height: 30px;
+    background-color: rgb(219, 219, 219);
+    min-width: 150px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border: 3px solid #cfcfcf;
+}
+
+.menuBarInnerButton:hover {
+    height: 30px;
+    background-color: rgb(115, 182, 245);
+
+    border: 3px solid rgb(99, 162, 221);
+}
+
+.menuBarInnerButton .menuBarInnerButtonChild{
+    visibility: hidden;
+}
+
+.menuBarInnerButton:hover .menuBarInnerButtonChild{
+    visibility: visible;
+}
+
+.menuBarSubContent {
+    position: absolute;
+    min-width: 150px;
+    min-height: 30px;
+    background-color: white;
+    left: 100%;
+    margin-top: -22.5px;
+}
+
+

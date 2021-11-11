@@ -1,0 +1,40 @@
+.mf64Background {
+    width: 85vh;
+	height: 85vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #15141d;
+	padding: 3vh;
+
+	border-radius: 6vh;
+}
+
+.mf64BtnHolder {
+	width: 12.5%;
+	height: 12.5%;
+
+	float: left;
+}
+
+.mf64NormalBtn {
+	height: 85%;
+	width: 85%;
+	margin: 7.5%;
+
+    padding: 10%;
+
+	background-color: #505050;
+
+	border-radius: 100%;
+	border: none;
+	outline: 0;
+}
+
+.mf64BtnFill {
+	height: 100%;
+	width: 100%;
+
+	background-color: #15141d;
+
+	border-radius: 100%;
+}

@@ -1,0 +1,78 @@
+.lpBackgroundProMk2 {
+	width: 85vh;
+	height: 85vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #15141d;
+	padding: 3vh;
+
+	border-radius: 3vh;
+}
+
+.lpBtnHolderProMk2 {
+	width: 10%;
+	height: 10%;
+
+	float: left;
+}
+
+.lpNormalBtnProMk2 {
+	height: 85%;
+	width: 85%;
+	margin: 7.5%;
+
+	background-color: #505050;
+
+	border-radius: 10%;
+	border: none;
+	outline: 0;
+}
+.lpNormalBtnProMk2DL {
+	border-radius: 10% 40% 10% 10%;
+}
+.lpNormalBtnProMk2DR {
+	border-radius: 40% 10% 10% 10%;
+}
+.lpNormalBtnProMk2TL {
+	border-radius: 10% 10% 40% 10%;
+}
+.lpNormalBtnProMk2TR {
+	border-radius: 10% 10% 10% 40%;
+}
+
+.lpEdgeBtnProMk2 {
+	height: 80%;
+	width: 80%;
+	margin: 10%;
+
+	padding: 9%;
+
+	background-color: rgb(80, 80, 80);
+
+	border-radius: 100%;
+}
+
+.lpEdgeFillProMk2 {
+	height: 100%;
+	width: 100%;
+
+	background-color: #15141d;
+
+	border-radius: 100%;
+}
+
+.lpModeLightProMk2 {
+	position: absolute;
+
+	height: 3vh;
+	width: 2vh;
+
+	margin-left: -32.5vh;
+	margin-top: 79vh;
+
+	background-color: #505050;
+
+	border-radius: 2vh 2vh 0 0;
+	border: none;
+	outline: 0;
+}

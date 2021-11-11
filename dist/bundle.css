@@ -1,0 +1,498 @@
+.menuBarHolder {
+    height: 30px;
+    background-color: rgb(214, 214, 214);
+}
+
+.menuBarButton {
+    height: 30px;
+    border: none;
+    outline: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menuBarButton:hover {
+    background-color: rgb(115, 182, 245);
+}
+
+.menuBarButton .menuBarButtonChild {
+    visibility: hidden;
+}
+
+.menuBarButton:hover .menuBarButtonChild {
+    visibility: visible;
+    z-index: 1000;
+}
+
+.menuBarInnerContent {
+    position: absolute;
+    min-width: 150px;
+    min-height: 30px;
+    background-color: white;
+    left: calc("1 - 14px");
+    margin-left: -10px;
+    margin-top: 7px;
+}
+
+.menuBarInnerButton {
+    height: 30px;
+    background-color: rgb(219, 219, 219);
+    min-width: 150px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border: 3px solid #cfcfcf;
+}
+
+.menuBarInnerButton:hover {
+    height: 30px;
+    background-color: rgb(115, 182, 245);
+
+    border: 3px solid rgb(99, 162, 221);
+}
+
+.menuBarInnerButton .menuBarInnerButtonChild{
+    visibility: hidden;
+}
+
+.menuBarInnerButton:hover .menuBarInnerButtonChild{
+    visibility: visible;
+}
+
+.menuBarSubContent {
+    position: absolute;
+    min-width: 150px;
+    min-height: 30px;
+    background-color: white;
+    left: 100%;
+    margin-top: -22.5px;
+}
+
+
+
+.lpBackgroundProMk2 {
+	width: 85vh;
+	height: 85vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #15141d;
+	padding: 3vh;
+
+	border-radius: 3vh;
+}
+
+.lpBtnHolderProMk2 {
+	width: 10%;
+	height: 10%;
+
+	float: left;
+}
+
+.lpNormalBtnProMk2 {
+	height: 85%;
+	width: 85%;
+	margin: 7.5%;
+
+	background-color: #505050;
+
+	border-radius: 10%;
+	border: none;
+	outline: 0;
+}
+.lpNormalBtnProMk2DL {
+	border-radius: 10% 40% 10% 10%;
+}
+.lpNormalBtnProMk2DR {
+	border-radius: 40% 10% 10% 10%;
+}
+.lpNormalBtnProMk2TL {
+	border-radius: 10% 10% 40% 10%;
+}
+.lpNormalBtnProMk2TR {
+	border-radius: 10% 10% 10% 40%;
+}
+
+.lpEdgeBtnProMk2 {
+	height: 80%;
+	width: 80%;
+	margin: 10%;
+
+	padding: 9%;
+
+	background-color: rgb(80, 80, 80);
+
+	border-radius: 100%;
+}
+
+.lpEdgeFillProMk2 {
+	height: 100%;
+	width: 100%;
+
+	background-color: #15141d;
+
+	border-radius: 100%;
+}
+
+.lpModeLightProMk2 {
+	position: absolute;
+
+	height: 3vh;
+	width: 2vh;
+
+	margin-left: -32.5vh;
+	margin-top: 79vh;
+
+	background-color: #505050;
+
+	border-radius: 2vh 2vh 0 0;
+	border: none;
+	outline: 0;
+}
+.lpBackgroundMk2 {
+    width: 85vh;
+	height: 85vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #15141d;
+	padding: 3vh;
+
+	border-radius: 3vh;
+}
+
+.lpBtnHolderMk2 {
+	width: 11.11%;
+	height: 11.11%;
+
+	float: left;
+}
+
+.lpNormalBtnMk2 {
+	height: 85%;
+	width: 85%;
+	margin: 7.5%;
+
+	background-color: #505050;
+
+	border-radius: 10%;
+	border: none;
+	outline: 0;
+}
+
+.lpEdgeBtnMk2 {
+	height: 80%;
+	width: 80%;
+	margin: 10%;
+
+	padding: 9%;
+
+	background-color: rgb(80, 80, 80);
+
+	border-radius: 100%;
+}
+
+.lpEdgeFillMk2 {
+	height: 100%;
+	width: 100%;
+
+	background-color: #15141d;
+
+	border-radius: 100%;
+}
+
+.lpNormalBtnMk2DL {
+	border-radius: 10% 40% 10% 10%;
+}
+.lpNormalBtnMk2DR {
+	border-radius: 40% 10% 10% 10%;
+}
+.lpNormalBtnMk2TL {
+	border-radius: 10% 10% 40% 10%;
+}
+.lpNormalBtnMk2TR {
+	border-radius: 10% 10% 10% 40%;
+}
+
+.lpBackgroundX {
+    width: 85vh;
+	height: 85vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #15141d;
+	padding: 3vh;
+
+	border-radius: 1.5vh;
+}
+
+.lpBtnHolderX {
+	width: 11.11%;
+	height: 11.11%;
+
+	float: left;
+}
+
+.lpNormalBtnX {
+	height: 85%;
+	width: 85%;
+	margin: 7.5%;
+
+	background-color: #505050;
+
+	border-radius: 5%;
+	border: none;
+	outline: 0;
+}
+
+.lpEdgeBtnX {
+	height: 80%;
+	width: 80%;
+	margin: 10%;
+
+	padding: 5%;
+
+	background-color: rgb(80, 80, 80);
+
+	border-radius: 5%;
+}
+
+.lpEdgeFillX {
+	height: 100%;
+	width: 100%;
+
+	background-color: #15141d;
+
+	border-radius: 5%;
+}
+
+.lpNormalBtnXDL {
+	border-radius: 5% 30% 5% 5%;
+}
+.lpNormalBtnXDR {
+	border-radius: 30% 5% 5% 5%;
+}
+.lpNormalBtnXTL {
+	border-radius: 5% 5% 30% 5%;
+}
+.lpNormalBtnXTR {
+	border-radius: 5% 5% 5% 30%;
+}
+
+.lpBackgroundProMk3 {
+	width: 85vh;
+	height: 85vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #15141d;
+	padding: 3vh;
+
+	border-radius: 1vh;
+}
+
+.lpBtnHolderProMk3 {
+	width: 10%;
+	height: 10%;
+
+	float: left;
+}
+
+.lpNormalBtnProMk3 {
+	height: 85%;
+	width: 85%;
+	margin: 7.5%;
+
+	background-color: #505050;
+
+	border-radius: 5%;
+	border: none;
+	outline: 0;
+}
+.lpNormalBtnProMk3DL {
+	border-radius: 5% 40% 5% 5%;
+}
+.lpNormalBtnProMk3DR {
+	border-radius: 40% 5% 5% 5%;
+}
+.lpNormalBtnProMk3TL {
+	border-radius: 5% 5% 40% 5%;
+}
+.lpNormalBtnProMk3TR {
+	border-radius: 5% 5% 5% 40%;
+}
+
+.lpEdgeBtnProMk3 {
+	height: 80%;
+	width: 80%;
+	margin: 10%;
+
+	padding: 5%;
+
+	background-color: rgb(80, 80, 80);
+
+	border-radius: 5%;
+}
+
+.lpEdgeFillProMk3 {
+	height: 100%;
+	width: 100%;
+
+	background-color: #15141d;
+
+	border-radius: 5%;
+}
+
+.lpBottomEdgeProMk3 {
+	height: 40%;
+	width: 80%;
+	margin: 10%;
+
+	padding: 5%;
+
+	background-color: rgb(80, 80, 80);
+
+	border-radius: 5%;
+}
+
+.lpBottomEdgeFillProMk3 {
+	height: 100%;
+	width: 100%;
+
+	background-color: #15141d;
+
+	border-radius: 5%;
+}
+
+.lpShiftBtnProMk3 {
+	height: 55%;
+	width: 55%;
+	margin: 23%;
+	padding: 5%;
+
+	background-color: #505050;
+
+	border-radius: 5%;
+	border: none;
+	outline: 0;
+}
+.maBackground {
+    width: 85vh;
+	height: 85vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #15141d;
+	padding: 3vh;
+
+	border-radius: 3vh;
+}
+
+.maBtnHolder {
+	width: 12.5%;
+	height: 12.5%;
+
+	float: left;
+}
+
+.maNormalBtn {
+	height: 85%;
+	width: 85%;
+	margin: 7.5%;
+
+	background-color: #505050;
+
+	border-radius: 10%;
+	border: none;
+	outline: 0;
+}
+
+.maEdgeBtn {
+	height: 80%;
+	width: 80%;
+	margin: 10%;
+
+	padding: 9%;
+
+	background-color: rgb(80, 80, 80);
+
+	border-radius: 100%;
+}
+
+.maEdgeFill {
+	height: 100%;
+	width: 100%;
+
+	background-color: #15141d;
+
+	border-radius: 100%;
+}
+
+.maNormalBtnDL {
+	border-radius: 10% 40% 10% 10%;
+}
+.maNormalBtnDR {
+	border-radius: 40% 10% 10% 10%;
+}
+.maNormalBtnTL {
+	border-radius: 10% 10% 40% 10%;
+}
+.maNormalBtnTR {
+	border-radius: 10% 10% 10% 40%;
+}
+
+.mf64Background {
+    width: 85vh;
+	height: 85vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #15141d;
+	padding: 3vh;
+
+	border-radius: 6vh;
+}
+
+.mf64BtnHolder {
+	width: 12.5%;
+	height: 12.5%;
+
+	float: left;
+}
+
+.mf64NormalBtn {
+	height: 85%;
+	width: 85%;
+	margin: 7.5%;
+
+    padding: 10%;
+
+	background-color: #505050;
+
+	border-radius: 100%;
+	border: none;
+	outline: 0;
+}
+
+.mf64BtnFill {
+	height: 100%;
+	width: 100%;
+
+	background-color: #15141d;
+
+	border-radius: 100%;
+}
+* {
+	box-sizing: border-box;
+}
+
+.lpContainer
+{
+	padding: 5vh;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+
+	background-color: #32323e;
+	margin: 0;
+	overflow: hidden;
+}
+

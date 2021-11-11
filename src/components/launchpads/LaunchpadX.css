@@ -1,0 +1,63 @@
+.lpBackgroundX {
+    width: 85vh;
+	height: 85vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #15141d;
+	padding: 3vh;
+
+	border-radius: 1.5vh;
+}
+
+.lpBtnHolderX {
+	width: 11.11%;
+	height: 11.11%;
+
+	float: left;
+}
+
+.lpNormalBtnX {
+	height: 85%;
+	width: 85%;
+	margin: 7.5%;
+
+	background-color: #505050;
+
+	border-radius: 5%;
+	border: none;
+	outline: 0;
+}
+
+.lpEdgeBtnX {
+	height: 80%;
+	width: 80%;
+	margin: 10%;
+
+	padding: 5%;
+
+	background-color: rgb(80, 80, 80);
+
+	border-radius: 5%;
+}
+
+.lpEdgeFillX {
+	height: 100%;
+	width: 100%;
+
+	background-color: #15141d;
+
+	border-radius: 5%;
+}
+
+.lpNormalBtnXDL {
+	border-radius: 5% 30% 5% 5%;
+}
+.lpNormalBtnXDR {
+	border-radius: 30% 5% 5% 5%;
+}
+.lpNormalBtnXTL {
+	border-radius: 5% 5% 30% 5%;
+}
+.lpNormalBtnXTR {
+	border-radius: 5% 5% 5% 30%;
+}

@@ -1,0 +1,63 @@
+.maBackground {
+    width: 85vh;
+	height: 85vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #15141d;
+	padding: 3vh;
+
+	border-radius: 3vh;
+}
+
+.maBtnHolder {
+	width: 12.5%;
+	height: 12.5%;
+
+	float: left;
+}
+
+.maNormalBtn {
+	height: 85%;
+	width: 85%;
+	margin: 7.5%;
+
+	background-color: #505050;
+
+	border-radius: 10%;
+	border: none;
+	outline: 0;
+}
+
+.maEdgeBtn {
+	height: 80%;
+	width: 80%;
+	margin: 10%;
+
+	padding: 9%;
+
+	background-color: rgb(80, 80, 80);
+
+	border-radius: 100%;
+}
+
+.maEdgeFill {
+	height: 100%;
+	width: 100%;
+
+	background-color: #15141d;
+
+	border-radius: 100%;
+}
+
+.maNormalBtnDL {
+	border-radius: 10% 40% 10% 10%;
+}
+.maNormalBtnDR {
+	border-radius: 40% 10% 10% 10%;
+}
+.maNormalBtnTL {
+	border-radius: 10% 10% 40% 10%;
+}
+.maNormalBtnTR {
+	border-radius: 10% 10% 10% 40%;
+}

@@ -1,0 +1,96 @@
+.lpBackgroundProMk3 {
+	width: 85vh;
+	height: 85vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #15141d;
+	padding: 3vh;
+
+	border-radius: 1vh;
+}
+
+.lpBtnHolderProMk3 {
+	width: 10%;
+	height: 10%;
+
+	float: left;
+}
+
+.lpNormalBtnProMk3 {
+	height: 85%;
+	width: 85%;
+	margin: 7.5%;
+
+	background-color: #505050;
+
+	border-radius: 5%;
+	border: none;
+	outline: 0;
+}
+.lpNormalBtnProMk3DL {
+	border-radius: 5% 40% 5% 5%;
+}
+.lpNormalBtnProMk3DR {
+	border-radius: 40% 5% 5% 5%;
+}
+.lpNormalBtnProMk3TL {
+	border-radius: 5% 5% 40% 5%;
+}
+.lpNormalBtnProMk3TR {
+	border-radius: 5% 5% 5% 40%;
+}
+
+.lpEdgeBtnProMk3 {
+	height: 80%;
+	width: 80%;
+	margin: 10%;
+
+	padding: 5%;
+
+	background-color: rgb(80, 80, 80);
+
+	border-radius: 5%;
+}
+
+.lpEdgeFillProMk3 {
+	height: 100%;
+	width: 100%;
+
+	background-color: #15141d;
+
+	border-radius: 5%;
+}
+
+.lpBottomEdgeProMk3 {
+	height: 40%;
+	width: 80%;
+	margin: 10%;
+
+	padding: 5%;
+
+	background-color: rgb(80, 80, 80);
+
+	border-radius: 5%;
+}
+
+.lpBottomEdgeFillProMk3 {
+	height: 100%;
+	width: 100%;
+
+	background-color: #15141d;
+
+	border-radius: 5%;
+}
+
+.lpShiftBtnProMk3 {
+	height: 55%;
+	width: 55%;
+	margin: 23%;
+	padding: 5%;
+
+	background-color: #505050;
+
+	border-radius: 5%;
+	border: none;
+	outline: 0;
+}

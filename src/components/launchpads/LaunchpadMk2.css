@@ -1,0 +1,63 @@
+.lpBackgroundMk2 {
+    width: 85vh;
+	height: 85vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #15141d;
+	padding: 3vh;
+
+	border-radius: 3vh;
+}
+
+.lpBtnHolderMk2 {
+	width: 11.11%;
+	height: 11.11%;
+
+	float: left;
+}
+
+.lpNormalBtnMk2 {
+	height: 85%;
+	width: 85%;
+	margin: 7.5%;
+
+	background-color: #505050;
+
+	border-radius: 10%;
+	border: none;
+	outline: 0;
+}
+
+.lpEdgeBtnMk2 {
+	height: 80%;
+	width: 80%;
+	margin: 10%;
+
+	padding: 9%;
+
+	background-color: rgb(80, 80, 80);
+
+	border-radius: 100%;
+}
+
+.lpEdgeFillMk2 {
+	height: 100%;
+	width: 100%;
+
+	background-color: #15141d;
+
+	border-radius: 100%;
+}
+
+.lpNormalBtnMk2DL {
+	border-radius: 10% 40% 10% 10%;
+}
+.lpNormalBtnMk2DR {
+	border-radius: 40% 10% 10% 10%;
+}
+.lpNormalBtnMk2TL {
+	border-radius: 10% 10% 40% 10%;
+}
+.lpNormalBtnMk2TR {
+	border-radius: 10% 10% 10% 40%;
+}
