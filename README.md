@@ -25,4 +25,4 @@ This Project is made with NodeJS so open the command line and enter
 
 after this is finished, you can either use
 
-`npm start` to run, or `npm package` to build the project
+`npm start` to run, or `npm run package` to build the project
